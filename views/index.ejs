@@ -20,7 +20,10 @@
         <!-- Show the Joke -->
         <h1>Here's your joke:</h1>
         <p><%= joke %></p>
-        <a href="/">Go back</a>
+        <a href="/?fetchJoke=true">
+            <button>Get another Joke</button>
+        </a>
+        <a href="/"><button>Go back</button></a>
     <% } %>
 
     <% if (error) { %>

@@ -11,12 +11,14 @@ A simple web app that fetches random jokes using JokeAPI.
 ## Installation & Usage
 1. Clone the repository:
    ```sh
-   git clone <YOUR_GITHUB_REPO_URL>
+   git clone https://github.com/NSambhajiS/Making-laughter.git
 
 2. Install dependencies:
+   ```sh
    npm install
 
 3. Start the server:
+   ```sh
    node index.js
 
 4. Open http://localhost:3000 in your browser.
